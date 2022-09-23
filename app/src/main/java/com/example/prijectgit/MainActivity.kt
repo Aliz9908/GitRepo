@@ -12,9 +12,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
+        binding.tv1.text = "Hello github"
         binding.tv1.setOnClickListener {
-            binding.tv1.text = "Hello github"
+            binding.tv1.visibility = View.INVISIBLE
         }
     }
 }
