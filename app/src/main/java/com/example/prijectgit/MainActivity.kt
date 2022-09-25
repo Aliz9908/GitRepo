@@ -12,9 +12,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
+        val text = "alireza"
         binding.tv1.setOnClickListener {
-            binding.tv1.text = "Hello github"
+            binding.tv1.text = text
+        }
+        binding.button.setOnClickListener {
+            binding.tv1.text = "hello world"
         }
     }
 }
