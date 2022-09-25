@@ -19,5 +19,6 @@ class MainActivity : AppCompatActivity() {
         binding.button.setOnClickListener {
             binding.tv1.text = "hello world"
         }
+        binding.button.text = "salam"
     }
 }
